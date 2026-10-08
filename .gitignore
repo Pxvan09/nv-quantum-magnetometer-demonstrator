@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.nicegui/
+.venv/
+*.pys
+scan_*.csv
+!data/sample_scans/*.csv

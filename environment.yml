@@ -1,0 +1,16 @@
+name: quanten-scanner
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - pip:
+      - nicegui
+      - bleak
+      - pyserial
